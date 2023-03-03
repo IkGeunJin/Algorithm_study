@@ -13,8 +13,5 @@ for n in range(1, N + 1):
 for n in range(1, N + 1):
     count = 0
     for i in range(1001):
-        for j in range(1001):
-            if paper[i][j] == n:
-                count += 1
-
+        count += paper[i].count(n)
     print(count)
