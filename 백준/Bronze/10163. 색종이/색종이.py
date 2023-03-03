@@ -10,6 +10,7 @@ for n in range(1, N + 1):
         for j in range(start_j, start_j + length_j):
             paper[i][j] = n
 
+
 for n in range(1, N + 1):
     count = 0
     for i in range(1001):
